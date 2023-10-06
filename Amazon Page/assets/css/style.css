@@ -64,7 +64,6 @@ main section:nth-child(1) p {
 main section:nth-child(2) {
   width: 100%;
   background-image: url(../images/bg-image.png);
-  background-repeat: repeat;
   background-size: 1200px;
   color: #eee;
   text-align: center;
@@ -110,6 +109,11 @@ main section .section-header p {
   font-weight: 800;
 }
 
+main section:nth-child(3) .img-boxes {
+  width: 100%;
+  text-align: center;
+}
+
 main section:nth-child(3) .img-boxes .img-box {
   display: inline-block;
   background-size: cover;
@@ -118,21 +122,19 @@ main section:nth-child(3) .img-boxes .img-box {
   height: 21rem;
   border-radius: 1.25rem;
   box-shadow: 5px 7.5px 15px 2px rgba(0, 0, 0, 0.15);
+  margin: 0 1%;
 }
 
 main section:nth-child(3) .img-boxes .img-box:nth-child(1) {
   background-image: url(../images/img_1.jpg);
-  margin-right: 3.6%;
 }
 
 main section:nth-child(3) .img-boxes .img-box:nth-child(2) {
   background-image: url(../images/img_2.jpg);
-  margin-right: 3.6%;
 }
 
 main section:nth-child(3) .img-boxes .img-box:nth-child(3) {
   background-image: url(../images/img_3.jpg);
-  margin-right: 3.6%;
 }
 
 main section:nth-child(3) .img-boxes .img-box:nth-child(4) {
