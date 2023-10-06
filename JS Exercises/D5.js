@@ -124,7 +124,7 @@ const numericArray = [
 console.log("🔹 ESERCIZIO 9:");
 
 let i = 0;
-while (i != numericArray.length) {
+while (i < numericArray.length) {
   if (numericArray[i] === 32) {
     break;
   }
@@ -163,3 +163,7 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
 console.log("🔹 ESERCIZIO 10:", numbersArray);
+
+let letterIndex = 0;
+let numberIndex = 0;
+const alphabet = [abcdefghijklmnopqrstuvwxyz];
