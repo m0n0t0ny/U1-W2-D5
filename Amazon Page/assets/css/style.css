@@ -125,7 +125,7 @@ main section:nth-child(3) .img-boxes .img-box {
   margin: 0 1%;
 }
 
-main section:nth-child(3) .img-boxes .img-box:nth-child(1) {
+/* main section:nth-child(3) .img-boxes .img-box:nth-child(1) {
   background-image: url(../images/img_1.jpg);
 }
 
@@ -139,7 +139,7 @@ main section:nth-child(3) .img-boxes .img-box:nth-child(3) {
 
 main section:nth-child(3) .img-boxes .img-box:nth-child(4) {
   background-image: url(../images/img_4.jpg);
-}
+} */
 
 main section:nth-child(4) .img-box {
   background-image: url(../images/img_9.png);

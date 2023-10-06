@@ -82,9 +82,9 @@ cars.push({
   licensePlate: 0
 });
 
-// for (let i = 0; i < cars.length; i++) {
-//   delete cars[i].trims;
-// }
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop();
+}
 
 console.log("🔹 ESERCIZIO 6:", cars);
 
@@ -164,6 +164,7 @@ for (let i = 0; i < charactersArray.length; i++) {
 }
 console.log("🔹 ESERCIZIO 10:", numbersArray);
 
-let letterIndex = 0;
-let numberIndex = 0;
-const alphabet = [abcdefghijklmnopqrstuvwxyz];
+// let letterIndex = 0;
+// let numberIndex = 0;
+// const alphabet = [abcdefghijklmnopqrstuvwxyz];
+// for (let i = 0; i < alphabet[i].length; i++) {}
