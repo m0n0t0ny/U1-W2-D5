@@ -84,13 +84,13 @@ main section:nth-child(2) p {
 main section:nth-child(3) {
   width: 100%;
   background-color: #ffffff;
-  padding: 1rem 1.25rem;
+  padding: 1% 0;
   margin-bottom: 1.75rem;
 }
 
 main section .section-header:nth-child(1) {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1%;
 }
 
 main section .section-header h3 {
@@ -98,7 +98,7 @@ main section .section-header h3 {
   color: #111;
   font-size: 18px;
   font-weight: 600;
-  margin-right: 1rem;
+  margin: 0 1%;
 }
 
 main section .section-header p {
