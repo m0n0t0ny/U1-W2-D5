@@ -163,8 +163,3 @@ for (let i = 0; i < charactersArray.length; i++) {
   }
 }
 console.log("🔹 ESERCIZIO 10:", numbersArray);
-
-// let letterIndex = 0;
-// let numberIndex = 0;
-// const alphabet = [abcdefghijklmnopqrstuvwxyz];
-// for (let i = 0; i < alphabet[i].length; i++) {}
