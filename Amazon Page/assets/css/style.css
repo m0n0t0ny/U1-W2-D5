@@ -96,9 +96,9 @@ main section .section-header:nth-child(1) {
 main section .section-header h3 {
   display: inline;
   color: #111;
-  font-size: 18px;
-  font-weight: 600;
-  margin: 0 1%;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 1% 0 1.1rem;
 }
 
 main section .section-header p {
@@ -114,32 +114,14 @@ main section:nth-child(3) .img-boxes {
   text-align: center;
 }
 
-main section:nth-child(3) .img-boxes .img-box {
-  display: inline-block;
-  background-size: cover;
-  background-position: center;
-  width: 22%;
-  height: 21rem;
-  border-radius: 1.25rem;
-  box-shadow: 5px 7.5px 15px 2px rgba(0, 0, 0, 0.15);
+main section:nth-child(3) .img-boxes img {
+  width: 22.5%;
+  height: 22rem;
+  object-fit: cover;
   margin: 0 1%;
+  border-radius: 1rem;
+  box-shadow: 5px 8px 15px 2px rgba(0, 0, 0, 0.15);
 }
-
-/* main section:nth-child(3) .img-boxes .img-box:nth-child(1) {
-  background-image: url(../images/img_1.jpg);
-}
-
-main section:nth-child(3) .img-boxes .img-box:nth-child(2) {
-  background-image: url(../images/img_2.jpg);
-}
-
-main section:nth-child(3) .img-boxes .img-box:nth-child(3) {
-  background-image: url(../images/img_3.jpg);
-}
-
-main section:nth-child(3) .img-boxes .img-box:nth-child(4) {
-  background-image: url(../images/img_4.jpg);
-} */
 
 main section:nth-child(4) .img-box {
   background-image: url(../images/img_9.png);
